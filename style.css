@@ -1,0 +1,104 @@
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+
+} 
+
+
+
+
+
+nav{
+background-color: 	#c5aa6a;
+justify-content:space-between;
+}
+
+
+
+
+
+header img{
+    height: 45px;
+}
+
+
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+header nav ul li{
+    padding: 15px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 12px;
+    height:auto;
+}
+
+header nav ul li:hover{
+    padding: 15px;
+    background-color: 	#5a4005;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 12px; 
+}
+
+main{
+    display: flex;
+}
+
+.tickets-container{
+    width: 50%;
+    border: 1px solid green;  
+}
+.concert-container{
+    width: 50%;
+    border: 1px solid black;  
+}
+
+.concert img{
+   
+    max-width: 100%;
+    display: block;  /*added display block as img is an inline element and this thing give and underline space*/
+}
+
+.tickets-container .tickets{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#f77c09;
+}
+.tickets img{
+    max-width: 100%;
+}
+
+
+footer{
+    background-color: #5a4005;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5rem;
+}
+
+
+
+.btn{
+    height: 6rem;
+    width: 12rem;
+    border-radius: 20px;
+    margin: 40px 0px 40px 0px;
+}
+
+.btn:hover{
+    margin: 40px 0px 40px 0px;
+    background-color: #f77c09;
+    transition: background-color 1s 2s;
+    border-radius: 80px;
+}
+
